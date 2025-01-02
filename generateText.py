@@ -13,7 +13,10 @@ genai.configure(api_key=api_key)
 # For text-only input, use the gemini-pro model
 model = genai.GenerativeModel('gemini-1.5-flash')
 
+print("Enter a text : ")
+msg = input()
+
 # Generate content
-response = model.generate_content("Write a short story about a cat who goes on an adventure.")
+response = model.generate_content(msg)
 
 print(response.text)

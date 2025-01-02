@@ -6,8 +6,11 @@ name = "pypi"
 [packages]
 python-dotenv = "*"
 google-generativeai = "*"
+pillow = "*"
+wget = "*"
 
 [dev-packages]
+ipykernel = "*"
 
 [requires]
 python_version = "3.11"
