@@ -8,6 +8,8 @@ python-dotenv = "*"
 google-generativeai = "*"
 pillow = "*"
 wget = "*"
+requests = "*"
+beautifulsoup4 = "*"
 
 [dev-packages]
 ipykernel = "*"
